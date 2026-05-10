@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Jeremy Pandey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loader"><div class="loader-bar"></div></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Jeremy Pandey</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+
+    <div class="contact-header">
+      <p class="section-label">Kontak & Data Diri</p>
+      <h1>Contact</h1>
+      <p>Jangan ragu untuk menghubungi saya!</p>
+    </div>
+
+    <div class="contact-layout">
+
+      <!-- Info -->
+      <div class="contact-info fade-in">
+        <h2>Informasi Kontak</h2>
+
+        <div class="info-item">
+          <div class="info-icon">👤</div>
+          <div>
+            <p class="info-label">Nama</p>
+            <p class="info-value">Jeremy Pandey</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">✉</div>
+          <div>
+            <p class="info-label">Email</p>
+            <p class="info-value">jeje@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div>
+            <p class="info-label">No HP</p>
+            <p class="info-value">08xxxxxxx</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div>
+            <p class="info-label">Alamat</p>
+            <p class="info-value">Sulawesi Utara, Indonesia</p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <h3>Sosial Media</h3>
+          <div class="social-row">
+            <a href="#" class="social-link">
+              <span class="social-icon">📸</span> Instagram
+            </a>
+            <a href="#" class="social-link">
+              <span class="social-icon">📘</span> Facebook
+            </a>
+            <a href="#" class="social-link">
+              <span class="social-icon">🐙</span> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form fade-in">
+        <h2>Kirim Pesan</h2>
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama kamu..." required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subjek">Subjek</label>
+            <input type="text" id="subjek" name="subjek" placeholder="Topik pesan..." required>
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Kirim Pesan</button>
+          <div id="formSuccess" class="form-success">✓ Pesan berhasil dikirim! Terima kasih.</div>
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <span class="footer-name">Jeremy Pandey</span>
+    <span class="footer-copy">© 2025 · Sulawesi Utara, Indonesia</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

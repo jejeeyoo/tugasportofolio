@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Jeremy Pandey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loader"><div class="loader-bar"></div></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Jeremy Pandey</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+
+    <div class="gallery-header">
+      <p class="section-label">Koleksi Foto</p>
+      <h1>Gallery</h1>
+      <p>Kumpulan foto-foto.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item fade-in">
+        <img src="kucing1.jpg" alt="Kucing 1">
+        <div class="overlay">
+          <span class="overlay-label">Kucing 1</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-in">
+        <img src="kucing2.jpg" alt="Kucing 2">
+        <div class="overlay">
+          <span class="overlay-label">Kucing 2</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <button id="lightbox-close">✕</button>
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <footer>
+    <span class="footer-name">Jeremy Pandey</span>
+    <span class="footer-copy">© 2026 · Sulawesi Utara, Indonesia</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
